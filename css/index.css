@@ -3,6 +3,8 @@
 body {
     font-family: "Nunito", sans-serif;
     background: #eff1f7;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -55,14 +57,11 @@ body {
 }
 
 .hero-btns {
-    display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    text-align: center;
 }
 
-#github-btn,
-#paypal-btn,
-#spigot-btn {
+.hero-btns a {
     margin: 10px;
 }
 
@@ -86,10 +85,9 @@ body {
     }
 
     .hero-btns {
-        display: flex;
         justify-content: space-between;
+        display: flex;
         flex-direction: row;
-        text-align: center;
     }
 
     .content {
