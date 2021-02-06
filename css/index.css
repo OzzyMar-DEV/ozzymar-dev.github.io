@@ -36,6 +36,12 @@ body {
     color: #373d46;
 }
 
+.hero h2 {
+    font-size: 1em;
+    font-weight: 300;
+    color: #373d46;
+}
+
 .hero p {
     font-weight: 300;
     line-height: 1.8em;
@@ -78,6 +84,10 @@ body {
 
     .hero h1 {
         font-size: 3em;
+    }
+
+    .hero h2 {
+        font-size: 2em;
     }
 
     .hero p {
