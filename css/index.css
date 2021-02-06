@@ -1,103 +1,103 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
 
 body {
-    font-family: 'Nunito', sans-serif;
-    background: #EFF1F7;
+  font-family: "Nunito", sans-serif;
+  background: #eff1f7;
 }
 
 .content {
-    grid-area: content;
+  grid-area: content;
 }
 
 .container {
-    font-size: 1.5em;
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-areas:
-            "content";
-    grid-template-columns: 1fr;
+  font-size: 1.5em;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "content";
+  grid-template-columns: 1fr;
 }
 
 .content {
-    padding: 1em;
+  padding: 1em;
 }
 
 .hero {
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero h1 {
-    font-size: 2em;
-    font-weight: 300;
-    color: #373d46;
+  font-size: 2em;
+  font-weight: 300;
+  color: #373d46;
 }
 
 .hero p {
-    font-weight: 300;
-    line-height: 1.8em;
-    color: #98a0ad;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #98a0ad;
 }
 
 .action-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    background: #867bfb;
-    padding: 0.5em 2.0em;
-    border-radius: 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: #867bfb;
+  padding: 0.5em 2em;
+  border-radius: 40px;
 }
 
 .action-btn:hover {
-    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+  box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
 }
 
 .hero-btns {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-#github-btn, #paypal-btn, #spigot-btn {
-    margin: 10px;
+#github-btn,
+#paypal-btn,
+#spigot-btn {
+  margin: 10px;
 }
 
 @media (min-width: 1040px) {
-    .container {
-        grid-template-areas:
-                "content";
-        grid-template-columns: 1fr;
-    }
+  .container {
+    grid-template-areas: "content";
+    grid-template-columns: 1fr;
+  }
 
-    .hero {
-        text-align: left;
-        margin: 2em auto;
-    }
+  .hero {
+    text-align: left;
+    margin: 2em auto;
+  }
 
-    .hero h1 {
-        font-size: 3em;
-    }
+  .hero h1 {
+    font-size: 3em;
+  }
 
-    .hero p {
-        width: 60%;
-    }
+  .hero p {
+    width: 60%;
+  }
 
-    .hero-btns {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        text-align: center;
-    }
+  .hero-btns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+  }
 
-    .content {
-        align-self: center;
-    }
+  .content {
+    align-self: center;
+  }
 }
 
 ::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
+  width: 0;
+  background: transparent;
 }
