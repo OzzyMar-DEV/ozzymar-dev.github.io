@@ -13,6 +13,6 @@
         transform: translate(0, 15px);
     }
     100% {
-        ransform: translate(0, -0px);
+        transform: translate(0, -0px);
     }
 }
