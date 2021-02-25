@@ -95,7 +95,7 @@ body {
     }
 
     .hero-btns {
-        justify-content: space-evenly;
+        justify-content: space-between;
         display: flex;
         flex-direction: row;
     }
