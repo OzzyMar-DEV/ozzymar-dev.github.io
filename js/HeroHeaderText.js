@@ -1,8 +1,9 @@
 new Typed('.dev', {
     strings: [
         'Java',
-        'Web',
-        'NodeJS'
+        'Python',
+        'HTML',
+        'CSS',
     ],
     smartBackspace: true,
     loop: true,
